@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8748431C98F9700046BA94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8748421C98F9700046BA94 /* main.m */; };
+		3F8748461C98F9700046BA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8748451C98F9700046BA94 /* AppDelegate.m */; };
+		3F8748491C98F9700046BA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8748481C98F9700046BA94 /* ViewController.m */; };
+		3F87484C1C98F9700046BA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87484A1C98F9700046BA94 /* Main.storyboard */; };
+		3F87484E1C98F9700046BA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F87484D1C98F9700046BA94 /* Assets.xcassets */; };
+		3F8748511C98F9700046BA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87484F1C98F9700046BA94 /* LaunchScreen.storyboard */; };
+		3F87485C1C98F9700046BA94 /* lisigitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F87485B1C98F9700046BA94 /* lisigitTests.m */; };
+		3F8748671C98F9700046BA94 /* lisigitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8748661C98F9700046BA94 /* lisigitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8748581C98F9700046BA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8748361C98F9700046BA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F87483D1C98F9700046BA94;
+			remoteInfo = lisigit;
+		};
+		3F8748631C98F9700046BA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8748361C98F9700046BA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F87483D1C98F9700046BA94;
+			remoteInfo = lisigit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F87483E1C98F9700046BA94 /* lisigit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lisigit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8748421C98F9700046BA94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8748441C98F9700046BA94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8748451C98F9700046BA94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8748471C98F9700046BA94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F8748481C98F9700046BA94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F87484B1C98F9700046BA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F87484D1C98F9700046BA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8748501C98F9700046BA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8748521C98F9700046BA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8748571C98F9700046BA94 /* lisigitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lisigitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F87485B1C98F9700046BA94 /* lisigitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lisigitTests.m; sourceTree = "<group>"; };
+		3F87485D1C98F9700046BA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8748621C98F9700046BA94 /* lisigitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lisigitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8748661C98F9700046BA94 /* lisigitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lisigitUITests.m; sourceTree = "<group>"; };
+		3F8748681C98F9700046BA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F87483B1C98F9700046BA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8748541C98F9700046BA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87485F1C98F9700046BA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8748351C98F9700046BA94 = {
+			isa = PBXGroup;
+			children = (
+				3F8748401C98F9700046BA94 /* lisigit */,
+				3F87485A1C98F9700046BA94 /* lisigitTests */,
+				3F8748651C98F9700046BA94 /* lisigitUITests */,
+				3F87483F1C98F9700046BA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F87483F1C98F9700046BA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F87483E1C98F9700046BA94 /* lisigit.app */,
+				3F8748571C98F9700046BA94 /* lisigitTests.xctest */,
+				3F8748621C98F9700046BA94 /* lisigitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8748401C98F9700046BA94 /* lisigit */ = {
+			isa = PBXGroup;
+			children = (
+				3F8748441C98F9700046BA94 /* AppDelegate.h */,
+				3F8748451C98F9700046BA94 /* AppDelegate.m */,
+				3F8748471C98F9700046BA94 /* ViewController.h */,
+				3F8748481C98F9700046BA94 /* ViewController.m */,
+				3F87484A1C98F9700046BA94 /* Main.storyboard */,
+				3F87484D1C98F9700046BA94 /* Assets.xcassets */,
+				3F87484F1C98F9700046BA94 /* LaunchScreen.storyboard */,
+				3F8748521C98F9700046BA94 /* Info.plist */,
+				3F8748411C98F9700046BA94 /* Supporting Files */,
+			);
+			path = lisigit;
+			sourceTree = "<group>";
+		};
+		3F8748411C98F9700046BA94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8748421C98F9700046BA94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F87485A1C98F9700046BA94 /* lisigitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F87485B1C98F9700046BA94 /* lisigitTests.m */,
+				3F87485D1C98F9700046BA94 /* Info.plist */,
+			);
+			path = lisigitTests;
+			sourceTree = "<group>";
+		};
+		3F8748651C98F9700046BA94 /* lisigitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8748661C98F9700046BA94 /* lisigitUITests.m */,
+				3F8748681C98F9700046BA94 /* Info.plist */,
+			);
+			path = lisigitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F87483D1C98F9700046BA94 /* lisigit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87486B1C98F9700046BA94 /* Build configuration list for PBXNativeTarget "lisigit" */;
+			buildPhases = (
+				3F87483A1C98F9700046BA94 /* Sources */,
+				3F87483B1C98F9700046BA94 /* Frameworks */,
+				3F87483C1C98F9700046BA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lisigit;
+			productName = lisigit;
+			productReference = 3F87483E1C98F9700046BA94 /* lisigit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8748561C98F9700046BA94 /* lisigitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87486E1C98F9700046BA94 /* Build configuration list for PBXNativeTarget "lisigitTests" */;
+			buildPhases = (
+				3F8748531C98F9700046BA94 /* Sources */,
+				3F8748541C98F9700046BA94 /* Frameworks */,
+				3F8748551C98F9700046BA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8748591C98F9700046BA94 /* PBXTargetDependency */,
+			);
+			name = lisigitTests;
+			productName = lisigitTests;
+			productReference = 3F8748571C98F9700046BA94 /* lisigitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8748611C98F9700046BA94 /* lisigitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8748711C98F9700046BA94 /* Build configuration list for PBXNativeTarget "lisigitUITests" */;
+			buildPhases = (
+				3F87485E1C98F9700046BA94 /* Sources */,
+				3F87485F1C98F9700046BA94 /* Frameworks */,
+				3F8748601C98F9700046BA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8748641C98F9700046BA94 /* PBXTargetDependency */,
+			);
+			name = lisigitUITests;
+			productName = lisigitUITests;
+			productReference = 3F8748621C98F9700046BA94 /* lisigitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8748361C98F9700046BA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Madyu;
+				TargetAttributes = {
+					3F87483D1C98F9700046BA94 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZC4RMGMB59;
+					};
+					3F8748561C98F9700046BA94 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZC4RMGMB59;
+						TestTargetID = 3F87483D1C98F9700046BA94;
+					};
+					3F8748611C98F9700046BA94 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZC4RMGMB59;
+						TestTargetID = 3F87483D1C98F9700046BA94;
+					};
+				};
+			};
+			buildConfigurationList = 3F8748391C98F9700046BA94 /* Build configuration list for PBXProject "lisigit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8748351C98F9700046BA94;
+			productRefGroup = 3F87483F1C98F9700046BA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F87483D1C98F9700046BA94 /* lisigit */,
+				3F8748561C98F9700046BA94 /* lisigitTests */,
+				3F8748611C98F9700046BA94 /* lisigitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F87483C1C98F9700046BA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8748511C98F9700046BA94 /* LaunchScreen.storyboard in Resources */,
+				3F87484E1C98F9700046BA94 /* Assets.xcassets in Resources */,
+				3F87484C1C98F9700046BA94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8748551C98F9700046BA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8748601C98F9700046BA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F87483A1C98F9700046BA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8748491C98F9700046BA94 /* ViewController.m in Sources */,
+				3F8748461C98F9700046BA94 /* AppDelegate.m in Sources */,
+				3F8748431C98F9700046BA94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8748531C98F9700046BA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87485C1C98F9700046BA94 /* lisigitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87485E1C98F9700046BA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8748671C98F9700046BA94 /* lisigitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8748591C98F9700046BA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F87483D1C98F9700046BA94 /* lisigit */;
+			targetProxy = 3F8748581C98F9700046BA94 /* PBXContainerItemProxy */;
+		};
+		3F8748641C98F9700046BA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F87483D1C98F9700046BA94 /* lisigit */;
+			targetProxy = 3F8748631C98F9700046BA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F87484A1C98F9700046BA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F87484B1C98F9700046BA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F87484F1C98F9700046BA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8748501C98F9700046BA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8748691C98F9700046BA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F87486A1C98F9700046BA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F87486C1C98F9700046BA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lisigit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yu.lisigit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F87486D1C98F9700046BA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lisigit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yu.lisigit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F87486F1C98F9700046BA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lisigitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yu.lisigitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lisigit.app/lisigit";
+			};
+			name = Debug;
+		};
+		3F8748701C98F9700046BA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lisigitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yu.lisigitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lisigit.app/lisigit";
+			};
+			name = Release;
+		};
+		3F8748721C98F9700046BA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lisigitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yu.lisigitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lisigit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F8748731C98F9700046BA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lisigitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yu.lisigitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lisigit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8748391C98F9700046BA94 /* Build configuration list for PBXProject "lisigit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8748691C98F9700046BA94 /* Debug */,
+				3F87486A1C98F9700046BA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F87486B1C98F9700046BA94 /* Build configuration list for PBXNativeTarget "lisigit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87486C1C98F9700046BA94 /* Debug */,
+				3F87486D1C98F9700046BA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F87486E1C98F9700046BA94 /* Build configuration list for PBXNativeTarget "lisigitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87486F1C98F9700046BA94 /* Debug */,
+				3F8748701C98F9700046BA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F8748711C98F9700046BA94 /* Build configuration list for PBXNativeTarget "lisigitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8748721C98F9700046BA94 /* Debug */,
+				3F8748731C98F9700046BA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8748361C98F9700046BA94 /* Project object */;
+}
